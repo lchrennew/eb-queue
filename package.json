@@ -1,0 +1,35 @@
+{
+  "name": "eb-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
+    "@babel/plugin-proposal-optional-chaining": "^7.9.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "nodemon": "^2.0.2",
+    "core-js": "^3.6.4"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "@koa/router": "^8.0.8",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "memcached": "^2.2.2",
+    "mongodb": "^3.5.5",
+    "node-fetch": "^2.6.0",
+    "sockjs": "^0.3.20",
+    "websocket-multiplex": "^0.1.0"
+  }
+}
