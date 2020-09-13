@@ -28,7 +28,7 @@
     "koa-bodyparser": "^4.3.0",
     "memcached": "^2.2.2",
     "mongodb": "^3.5.5",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "sockjs": "^0.3.20",
     "websocket-multiplex": "^0.1.0"
   }
